@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="titulo desc">
+  <title id="titulo">DIÁLOGOS INTERATIVOS</title>
+  <desc id="desc">Placeholder visual para falas • opções • consequências</desc>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffd166" stop-opacity="0.95"/>
+      <stop offset="0.55" stop-color="#ff5fa2" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#060815" stop-opacity="1"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="14" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="760" fill="#060815"/>
+  <rect x="24" y="24" width="1152" height="712" rx="54" fill="url(#g)" opacity="0.72"/>
+  <g opacity="0.28">
+    <path d="M0 160H1200M0 300H1200M0 440H1200M0 580H1200" stroke="#fff" stroke-width="2"/>
+    <path d="M160 0V760M360 0V760M560 0V760M760 0V760M960 0V760" stroke="#fff" stroke-width="2"/>
+  </g>
+  <circle cx="955" cy="182" r="84" fill="#fff" opacity="0.13" filter="url(#glow)"/>
+  <circle cx="240" cy="560" r="130" fill="#fff" opacity="0.10" filter="url(#glow)"/>
+  <path d="M210 260 C330 120, 470 400, 620 250 S930 210, 1010 410" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round" opacity="0.22"/>
+  <rect x="118" y="106" width="964" height="548" rx="42" fill="#060815" opacity="0.42" stroke="#fff" stroke-opacity="0.28" stroke-width="3"/>
+  <text x="600" y="342" text-anchor="middle" fill="#ffffff" font-family="Montserrat, Arial, sans-serif" font-size="58" font-weight="800" letter-spacing="2">DIÁLOGOS INTERATIVOS</text>
+  <text x="600" y="414" text-anchor="middle" fill="#dbeafe" font-family="Roboto, Arial, sans-serif" font-size="28" font-weight="500">falas • opções • consequências</text>
+  <text x="600" y="504" text-anchor="middle" fill="#ffffff" opacity="0.62" font-family="Roboto, Arial, sans-serif" font-size="22">Imagem placeholder para substituir por arte real do projeto</text>
+</svg>

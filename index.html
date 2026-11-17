@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kauan Calefi Ferreira | Roteirização para Jogos Digitais</title>
+  <link rel="stylesheet" href="css/estilo.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="fundo-cinematico" aria-hidden="true">
+    <span class="orbe orbe-um"></span>
+    <span class="orbe orbe-dois"></span>
+    <span class="orbe orbe-tres"></span>
+    <span class="linha-luz linha-luz-um"></span>
+    <span class="linha-luz linha-luz-dois"></span>
+  </div>
+
+  <div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+
+  <nav id="mySidebar" class="sidebar">
+    <button class="closebtn" onclick="closeNav()">&#10005;</button>
+    <div class="sidebar-brand">
+      <span class="brand-sigla">KC</span>
+      <div>
+        <strong>Kauan Calefi</strong>
+        <small>Narrativa para Jogos</small>
+      </div>
+    </div>
+    <ul class="sidebar-links">
+      <li><a href="#home" onclick="closeNav()" data-nav="home"><span>01</span>Home</a></li>
+      <li><a href="#dados-pessoais" onclick="closeNav()" data-nav="dados-pessoais"><span>02</span>Dados Pessoais</a></li>
+      <li><a href="#formacao" onclick="closeNav()" data-nav="formacao"><span>03</span>Formação</a></li>
+      <li><a href="#conhecimentos" onclick="closeNav()" data-nav="conhecimentos"><span>04</span>Conhecimentos</a></li>
+      <li><a href="#experiencia" onclick="closeNav()" data-nav="experiencia"><span>05</span>Experiência</a></li>
+      <li><a href="#habilidades" onclick="closeNav()" data-nav="habilidades"><span>06</span>Habilidades</a></li>
+      <li><a href="#idiomas" onclick="closeNav()" data-nav="idiomas"><span>07</span>Idiomas</a></li>
+      <li><a href="#galeria-narrativa" onclick="closeNav()" data-nav="galeria-narrativa"><span>08</span>Galeria</a></li>
+    </ul>
+
+    <div class="sidebar-rodape">
+      <p>Status do portfólio</p>
+      <strong>Em evolução criativa</strong>
+      <div class="sidebar-medidor"><span></span></div>
+      <small>Roteiro • Lore • Game Design</small>
+    </div>
+  </nav>
+
+  <div class="menu-backdrop" id="menuBackdrop" onclick="closeNav()" aria-hidden="true"></div>
+
+  <div id="main">
+
+    <button class="openbtn" onclick="openNav()">&#9776;</button>
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <header id="home">
+      <div class="hero-conteudo">
+        <p class="eyebrow">Portfólio profissional</p>
+        <h1>Kauan Calefi Ferreira</h1>
+        <p class="hero-titulo">Roteirização e Narrativa para Jogos Digitais</p>
+        <p class="hero-texto">
+          Criação de personagens, construção de mundos, diálogos, missões e experiências narrativas pensadas para transformar ideias em jogos memoráveis.
+        </p>
+        <div class="hero-acoes">
+          <a href="#apresentacao" class="botao botao-principal">Ver apresentação</a>
+          <a href="#conhecimentos" class="botao botao-secundario">Conhecimentos</a>
+        </div>
+
+        <div class="hero-metricas" aria-label="Destaques do portfólio">
+          <div>
+            <strong>Storytelling</strong>
+            <span>Roteiros e arcos</span>
+          </div>
+          <div>
+            <strong>Worldbuilding</strong>
+            <span>Lore e universo</span>
+          </div>
+          <div>
+            <strong>Unity/C#</strong>
+            <span>Base técnica</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-painel">
+        <span class="selo-flutuante selo-um">Quest Design</span>
+        <span class="selo-flutuante selo-dois">Lore Bible</span>
+        <div class="terminal-topo">
+          <span></span><span></span><span></span>
+        </div>
+        <div class="terminal-linhas">
+          <p><span>&gt;</span> perfil.carregar()</p>
+          <p><span>&gt;</span> foco = "narrativa interativa"</p>
+          <p><span>&gt;</span> especialidade = "roteiros, lore e personagens"</p>
+          <p><span>&gt;</span> status = "em desenvolvimento constante"</p>
+        </div>
+      </div>
+    </header>
+
+    <section id="apresentacao" class="secao reveal">
+      <div class="secao-cabecalho">
+        <p class="secao-tag">Sobre o profissional</p>
+        <h2 class="titulo-secao">Apresentação</h2>
+      </div>
+
+      <div class="grid-apresentacao">
+        <div class="card card-destaque">
+          <h3>Perfil Criativo</h3>
+          <p>
+            Meu nome é <span class="destaque">Kauan Calefi Ferreira</span>, sou estudante do Instituto Federal e curso Técnico em Programação de Jogos Digitais. Tenho interesse especial na área de criação narrativa para jogos, principalmente roteirização, desenvolvimento de personagens, construção de universo, diálogos e organização de ideias para projetos interativos.
+          </p>
+          <p>
+            Sou uma pessoa meticulosa, criativa e curiosa. Posso precisar de um tempo inicial para compreender algumas explicações, mas aprendo rápido, reviso detalhes com cuidado e gosto de transformar conceitos soltos em experiências mais organizadas e envolventes.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Objetivos Profissionais</h3>
+          <p>
+            Atuar na área de desenvolvimento de jogos digitais com foco em narrativa, roteiro, game design narrativo e criação de conteúdo para experiências interativas, unindo criatividade, organização e conhecimento técnico.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Interesses e Áreas de Atuação</h3>
+          <ul class="lista lista-tags">
+            <li>Roteirização para Jogos</li>
+            <li>Narrativa Interativa</li>
+            <li>Criação de Personagens</li>
+            <li>Worldbuilding</li>
+            <li>Lore e Mitologia</li>
+            <li>Diálogos</li>
+            <li>Missões e Campanhas</li>
+            <li>Unity</li>
+            <li>Game Design</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="dados-pessoais" class="secao secao-azul reveal">
+      <div class="secao-cabecalho">
+        <p class="secao-tag">Contato e identificação</p>
+        <h2 class="titulo-secao">Dados Pessoais</h2>
+      </div>
+      <div class="dados-grid">
+        <div class="card dados-foto">
+          <div class="moldura-foto">
+            <img src="imagens/foto.png" alt="Foto de Kauan Calefi Ferreira" class="foto-perfil">
+          </div>
+          <p class="foto-legenda">Narrativa • Jogos • Criatividade</p>
+        </div>
+        <div class="card dados-info">
+          <ul class="lista lista-dados">
+            <li><span class="destaque">Nome completo:</span> Kauan Calefi Ferreira</li>
+            <li><span class="destaque">E-mail:</span> kauancalefi1007@gmail.com</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="formacao" class="secao reveal">
+      <div class="secao-cabecalho">
+        <p class="secao-tag">Base acadêmica</p>
+        <h2 class="titulo-secao">Formação Acadêmica</h2>
+      </div>
+
+      <div class="timeline">
+        <div class="card timeline-item">
+          <h3>Ensino Fundamental II</h3>
+          <ul class="lista">
+            <li><span class="destaque">Instituição:</span> Colégio Ideal</li>
+            <li><span class="destaque">Data de início:</span> Não informada</li>
+            <li><span class="destaque">Conclusão:</span> Dezembro de 2021</li>
+          </ul>
+        </div>
+
+        <div class="card timeline-item">
+          <h3>Ensino Médio</h3>
+          <ul class="lista">
+            <li><span class="destaque">Instituição:</span> Instituto Federal do Paraná</li>
+            <li><span class="destaque">Data de início:</span> 2022</li>
+            <li><span class="destaque">Conclusão:</span> Em andamento</li>
+          </ul>
+        </div>
+
+        <div class="card timeline-item">
+          <h3>Técnico em Programação de Jogos Digitais</h3>
+          <ul class="lista">
+            <li><span class="destaque">Instituição:</span> Instituto Federal do Paraná</li>
+            <li><span class="destaque">Data de início:</span> 2022</li>
+            <li><span class="destaque">Conclusão:</span> Em andamento</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="conhecimentos" class="secao secao-cinza reveal">
+      <div class="secao-cabecalho">
+        <p class="secao-tag">Ferramentas e repertório</p>
+        <h2 class="titulo-secao">Conhecimentos Técnicos</h2>
+      </div>
+
+      <div class="conhecimentos-grid">
+        <div class="card conhecimento-card">
+          <span class="icone-card">01</span>
+          <h3>Narrativa e Roteiro</h3>
+          <p>Estruturação de histórias, criação de arcos, desenvolvimento de personagens, conflitos e progressão narrativa.</p>
+        </div>
+
+        <div class="card conhecimento-card">
+          <span class="icone-card">02</span>
+          <h3>Game Design Narrativo</h3>
+          <p>Organização de ideias narrativas dentro de mecânicas, objetivos, fases, missões e ritmo de jogo.</p>
+        </div>
+
+        <div class="card conhecimento-card">
+          <span class="icone-card">03</span>
+          <h3>Programação e Ferramentas</h3>
+          <p>Conhecimentos em HTML, JavaScript, Python, C# e desenvolvimento de jogos com Unity.</p>
+        </div>
+      </div>
+
+      <div class="card card-lista-completa">
+        <details>
+          <summary>Ver todos os conhecimentos técnicos</summary>
+          <ul class="lista lista-duas-colunas">
+            <li>HTML</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>C#</li>
+            <li>Desenvolvimento de Jogos com Unity</li>
+            <li>Game Design</li>
+            <li>Criação e Desenvolvimento de Personagem</li>
+            <li>Roteirização</li>
+            <li>Narrativa Interativa</li>
+            <li>Construção de Universo</li>
+          </ul>
+        </details>
+      </div>
+    </section>
+
+    <section id="experiencia" class="secao reveal">
+      <div class="secao-cabecalho">
+        <p class="secao-tag">Vivência profissional</p>
+        <h2 class="titulo-secao">Experiência Profissional</h2>
+      </div>
+      <div class="card experiencia-card">
+        <h3>Jovem Aprendiz em PCP</h3>
+        <p><span class="destaque">Empresa:</span> Posigraf</p>
+        <p><span class="destaque">Período:</span> 6 meses</p>
+
+        <details>
+          <summary>Ver descrição das atividades</summary>
+          <ul class="lista">
+            <li>Apoio às rotinas de Planejamento e Controle da Produção (PCP)</li>
+            <li>Acompanhamento de ordens de serviço e da programação das máquinas</li>
+            <li>Atualização de planilhas e apoio na conferência de relatórios de produção</li>
+          </ul>
+        </details>
+      </div>
+      <div class="card experiencia-card">
+        <h3>Auxiliar Administrativo Jurídico</h3>
+        <p><span class="destaque">Empresa:</span> Calefi e Repetski Advogados Associados</p>
+        <p><span class="destaque">Período:</span> Janeiro de 2025 – Janeiro de 2026</p>
+
+        <details>
+          <summary>Ver descrição das atividades</summary>
+          <ul class="lista">
+            <li>Organização de documentos e arquivos</li>
+            <li>Controle de reuniões e agenda</li>
+            <li>Atualização de planilhas</li>
+            <li>Elaboração de relatórios simples</li>
+            <li>Atendimento de clientes por telefone</li>
+          </ul>
+        </details>
+      </div>
+    </section>
+
+    <section id="habilidades" class="secao secao-azul reveal">
+      <div class="secao-cabecalho">
+        <p class="secao-tag">Competências comportamentais</p>
+        <h2 class="titulo-secao">Habilidades</h2>
+      </div>
+      <div class="card">
+        <ul class="lista lista-habilidades">
+          <li>Trabalho em equipe</li>
+          <li>Comunicação</li>
+          <li>Organização</li>
+          <li>Criatividade</li>
+          <li>Educação</li>
+          <li>Flexibilidade com mudanças</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="idiomas" class="secao reveal">
+      <div class="secao-cabecalho">
+        <p class="secao-tag">Comunicação</p>
+        <h2 class="titulo-secao">Idiomas</h2>
+      </div>
+
+      <div class="card idiomas-card">
+        <ul class="lista idiomas-lista">
+          <li>
+            <span><span class="destaque">Português:</span> Avançado</span>
+            <div class="barra"><span class="nivel portugues"></span></div>
+          </li>
+          <li>
+            <span><span class="destaque">Inglês:</span> Intermediário</span>
+            <div class="barra"><span class="nivel ingles"></span></div>
+          </li>
+          <li>
+            <span><span class="destaque">Espanhol:</span> Básico</span>
+            <div class="barra"><span class="nivel espanhol"></span></div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+
+
+    <section id="galeria-narrativa" class="secao secao-galeria reveal">
+      <div class="secao-cabecalho galeria-cabecalho">
+        <p class="secao-tag">Vitrine criativa</p>
+        <h2 class="titulo-secao">Galeria de Projetos Narrativos</h2>
+        <p class="secao-descricao">
+          Uma área para exibir artes, conceitos, capas, cenas, mapas ou materiais visuais de projetos de jogos. Por enquanto, as imagens são placeholders simples e podem ser substituídas depois por imagens reais.
+        </p>
+      </div>
+
+      <div class="carrossel-galeria" aria-label="Carrossel de imagens de projetos narrativos">
+        <button class="carrossel-controle carrossel-voltar" type="button" aria-label="Imagem anterior">&#10094;</button>
+
+        <div class="carrossel-janela">
+          <article class="slide-galeria ativo" data-slide="0">
+            <img src="imagens/placeholder-universo.svg" alt="Placeholder de construção de universo para jogo digital">
+            <div class="slide-info">
+              <span>01</span>
+              <h3>Construção de Universo</h3>
+              <p>Base visual para lore, regiões, culturas e conflitos do mundo do jogo.</p>
+            </div>
+          </article>
+
+          <article class="slide-galeria proximo" data-slide="1">
+            <img src="imagens/placeholder-personagens.svg" alt="Placeholder de criação de personagens para jogo digital">
+            <div class="slide-info">
+              <span>02</span>
+              <h3>Personagens</h3>
+              <p>Espaço para protagonistas, antagonistas, aliados e arcos narrativos.</p>
+            </div>
+          </article>
+
+          <article class="slide-galeria oculto" data-slide="2">
+            <img src="imagens/placeholder-missoes.svg" alt="Placeholder de roteiro de missões para jogo digital">
+            <div class="slide-info">
+              <span>03</span>
+              <h3>Missões</h3>
+              <p>Representação de objetivos, escolhas, consequências e progressão.</p>
+            </div>
+          </article>
+
+          <article class="slide-galeria oculto" data-slide="3">
+            <img src="imagens/placeholder-dialogos.svg" alt="Placeholder de diálogos interativos para jogo digital">
+            <div class="slide-info">
+              <span>04</span>
+              <h3>Diálogos</h3>
+              <p>Área para cenas conversacionais, ramificações e decisões do jogador.</p>
+            </div>
+          </article>
+
+          <article class="slide-galeria anterior" data-slide="4">
+            <img src="imagens/placeholder-lore.svg" alt="Placeholder de bíblia narrativa e lore para jogo digital">
+            <div class="slide-info">
+              <span>05</span>
+              <h3>Bíblia Narrativa</h3>
+              <p>Organização de regras, mitologia, tom e coerência do projeto.</p>
+            </div>
+          </article>
+        </div>
+
+        <button class="carrossel-controle carrossel-avancar" type="button" aria-label="Próxima imagem">&#10095;</button>
+      </div>
+
+      <div class="marcadores-galeria" aria-label="Marcadores do carrossel"></div>
+    </section>
+
+    <footer>
+      <div class="footer-conteudo">
+        <div>
+          <h2>Kauan Calefi Ferreira</h2>
+          <p>Roteirização para Jogos Digitais • Game Narrative • Worldbuilding</p>
+        </div>
+        <div class="botoes-fontes">
+          <p>Alterar fonte do site:</p>
+          <button onclick="mudarFonte('Roboto')">Roboto</button>
+          <button onclick="mudarFonte('Lobster')">Lobster</button>
+          <button onclick="mudarFonte('Montserrat')">Montserrat</button>
+        </div>
+      </div>
+      <p class="footer-contato">Kauan Calefi Ferreira &mdash; kauancalefi2007@gmail.com &mdash; (41) 99416-7329</p>
+    </footer>
+
+  </div>
+
+  <script src="script/script.js"></script>
+
+</body>
+</html>
