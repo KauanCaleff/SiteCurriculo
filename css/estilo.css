@@ -1896,3 +1896,17 @@ footer::before {
 .slide-galeria.ativo { min-height: 0; }
 .slide-galeria.ativo .slide-info { padding-bottom: 24px; }
 @media (max-width: 700px) { .slide-galeria.ativo .slide-info { padding-bottom: 16px; } }
+
+/* Cards estáveis e espaço suficiente para a ação do projeto. */
+.carrossel-galeria { min-height: 670px; }
+.carrossel-janela { height: 650px; }
+.slide-galeria.ativo { animation: none; }
+.slide-galeria.ativo:hover { transform: translate(-50%, -50%) scale(1); }
+@media (max-width: 1080px) {
+  .carrossel-galeria { min-height: 620px; }
+  .carrossel-janela { height: 600px; }
+}
+@media (max-width: 700px) {
+  .carrossel-galeria { min-height: 570px; }
+  .carrossel-janela { height: 550px; }
+}
