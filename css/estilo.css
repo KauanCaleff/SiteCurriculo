@@ -1897,14 +1897,21 @@ footer::before {
 .slide-galeria.ativo .slide-info { padding-bottom: 24px; }
 @media (max-width: 700px) { .slide-galeria.ativo .slide-info { padding-bottom: 16px; } }
 
-/* Cards estáveis e espaço suficiente para a ação do projeto. */
-.carrossel-galeria { min-height: 670px; }
-.carrossel-janela { height: 650px; }
-.slide-galeria.ativo { animation: none; }
-.slide-galeria.ativo:hover { transform: translate(-50%, -50%) scale(1); }
+
+/* Carrossel sem movimento vertical, com espaço para o botão. */
+.secao-galeria, .carrossel-galeria, .carrossel-janela { overflow: visible; }
+.carrossel-galeria { min-height: 680px; }
+.carrossel-janela { height: 660px; }
+.slide-galeria { transition: none; animation: none !important; }
+.slide-galeria.ativo,
+.slide-galeria.ativo:hover {
+  transform: translate(-50%, -50%) scale(1);
+  animation: none !important;
+}
+.slide-galeria.ativo .slide-link-jogo { visibility: visible; }
 @media (max-width: 1080px) {
-  .carrossel-galeria { min-height: 620px; }
-  .carrossel-janela { height: 600px; }
+  .carrossel-galeria { min-height: 640px; }
+  .carrossel-janela { height: 620px; }
 }
 @media (max-width: 700px) {
   .carrossel-galeria { min-height: 570px; }
