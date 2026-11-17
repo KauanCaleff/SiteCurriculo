@@ -1890,3 +1890,9 @@ footer::before {
 .slide-galeria.ativo .slide-link-jogo {
   visibility: visible;
 }
+
+/* Mantém o card e a ação dentro da área visível ao passar o mouse. */
+.slide-galeria.ativo:hover { transform: translate(-50%, -50%) scale(1); }
+.slide-galeria.ativo { min-height: 0; }
+.slide-galeria.ativo .slide-info { padding-bottom: 24px; }
+@media (max-width: 700px) { .slide-galeria.ativo .slide-info { padding-bottom: 16px; } }
