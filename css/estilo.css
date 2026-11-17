@@ -1876,3 +1876,17 @@ footer::before {
     transition-duration: 0.001ms !important;
   }
 }
+
+.slide-link-jogo {
+  display: inline-block;
+  margin-top: 12px;
+  color: var(--azul);
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+  visibility: hidden;
+}
+
+.slide-galeria.ativo .slide-link-jogo {
+  visibility: visible;
+}
